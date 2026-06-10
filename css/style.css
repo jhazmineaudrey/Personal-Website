@@ -1,0 +1,49 @@
+/* GLOBAL STYLES */
+
+body {
+    margin: 0px;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 190, 201);
+    margin: 0px;
+    padding: 10px;
+}   
+
+#nav-bar {
+    display: flex;
+    padding-right: 2%;
+}
+
+#nav-bar > ul {
+    padding: 0px;
+    display: inline-block;
+    list-style-type: none;
+    margin: auto
+}
+
+.nav-link {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+.nav-link a {
+    background-color: rgb(194, 194, 255);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#home-button {
+    width: 5%;
+    height: 100%;
+}
+
+#home-button img {
+    width: 100%;
+    height: auto;
+}
