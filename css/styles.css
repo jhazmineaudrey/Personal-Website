@@ -64,3 +64,17 @@ body {
     }
 
 /* HOMEPAGE STYLES */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    background-color: pink;
+    padding: 1% auto;
+}
