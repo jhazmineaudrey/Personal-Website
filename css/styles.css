@@ -9,7 +9,7 @@ body {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
-        background-color: rgba(255, 173, 187, 0.545);
+        background-color: rgba(255, 173, 187, 0.729);
         margin: 0px;
         padding: 10px;
     }   
@@ -75,7 +75,113 @@ main {
 #about-me {
     display: flex;
     flex-direction: row;
-    width: 90vw;
-    background-color: pink;
-    padding: 1% auto;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    background-color: rgba(255, 192, 203, 0.63);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.774);
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+#quick-info, #snippet-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 70vh;
+    padding: 20px 10px;
+}
+
+#quick-info {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#quick-info h1, #quick-info p, #quick-info ul {
+    margin: 0;
+}
+
+#quick-info > img {
+    max-width: 95%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+#quick-info > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+#snippet-info {
+    justify-content: center;
+}
+
+#snippet-info #self-desc > p,
+#snippet-info #self-desc > h2,
+#snippet-info #tech-stack,
+#snippet-info #accordions,
+#snippet-info #quick-btns{
+    margin: 0;
+    padding: 10px
+}
+
+#snippet-info #tech-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+#snippet-info #tech-stack h2,
+#snippet-info #accordions h2 {
+    margin: 0;
+}
+
+#snippet-info #tech-stack ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0
+}
+
+#snippet-info #tech-stack ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: fit-content;
+    height: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#snippet-info #quick-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#snippet-info #quick-btns a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#snippet-info #quick-btns a img {
+    background-color: aqua;
+    width: 7em;
+    height: 7em;
 }
